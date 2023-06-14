@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UKR CLUB</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            font-family: Arial, Helvetica,;
+        }
+
+        #parent{
+            display: flex;
+            width: 90%;
+            /* background-color: rebeccapurple; */
+            justify-content: space-between;
+            align-items: center;
+            align-content: center;
+            margin: auto;
+        }
+        .option {
+            /* background-color: red; */
+            width: 300px;
+            gap: 50px;
+            display: flex;
+        }
+        input{
+            width: 300px;
+            height: 40px;
+            border: none;
+            background-color:rgb(229, 238, 241);
+            border-radius: 8px;
+        }
+         #btn{
+             border: none;
+             height: 50px;
+             background-color: black;
+             border-radius: 50px;
+             color: white;
+             font-size: 17px;
+             padding: 0 50px 0 50px;
+         }
+         #change{
+             width: 300px;
+             height: 40px;
+             border-radius: 8px;
+             background-color:rgb(229, 238, 241);
+         }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <img src="https://join.ukretreats.club/_next/static/media/logo.6fe2ce6a.svg" alt="">
+        <input type="text" placeholder="Search by name or location">
+        <div class="option">
+            <h3>About us </h3>
+            <h3>The perks</h3>
+            <h3>FAQs</h3>
+        </div>
+        <button id="btn">Join UKR Club</button>
+    </div>
+    <div id="top">
+        <div>
+            <div>
+                <h1>Filter</h1>
+                <p>Reset</p>
+            </div>
+            <h4>price</h4>
+            <div>
+                <input type="text" placeholder="From">
+                <input type="text" name="" id="" placeholder="To">
+            </div>
+            <h4>Property Type</h4>
+            <select name="" id="change">
+                <option value="">Select Property Type</option>
+                <option value="Penthouse">Penthouse</option>
+            </select>
+            <h4>Conveniences</h4>
+            <div id="conveninces">
+                <div>TV</div>
+                <div>Disabled Access</div>
+                <div>In the Woods</div>
+                <div>Hot Tubs</div>
+                <div>Views</div>
+                <div>Lakes & Rivers</div>
+                <div>Woodburner</div>
+                <div>Dog Friendly</div>
+                <div>Wi-Fi</div>
+                <div>Outdoors Baths</div>
+            </div>
+            <h4>Number of guests</h4>
+            <div>
+                <button>+</button>
+                <p>1</p>
+                <button>-</button>
+
+            </div>
+            <button>APPLY</button>
+        </div>
+        <div></div>
+    </div>
+</body>
+</html>
